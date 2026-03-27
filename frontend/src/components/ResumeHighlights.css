@@ -1,0 +1,97 @@
+.highlights-container {
+  background: var(--bg-surface);
+  border: 2px solid var(--border);
+  border-radius: 0;
+  padding: 2rem;
+  animation: slideUp 0.6s ease;
+  max-height: 600px;
+  overflow-y: auto;
+  box-shadow: 6px 6px 0px rgba(0,0,0,1);
+}
+
+.highlights-header h2 {
+  font-size: 1.25rem;
+  font-weight: 800;
+  margin-bottom: 1.5rem;
+  color: var(--primary);
+  text-transform: uppercase;
+}
+
+.highlight-section {
+  margin-bottom: 2rem;
+}
+
+.highlight-section:last-child {
+  margin-bottom: 0;
+}
+
+.highlight-section h3 {
+  font-size: 0.95rem;
+  font-weight: 800;
+  color: var(--text-primary);
+  margin-bottom: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  border-bottom: 2px solid var(--border);
+  padding-bottom: 0.5rem;
+}
+
+.summary-text {
+  font-size: 0.95rem;
+  color: var(--text-primary);
+  line-height: 1.6;
+  padding: 1rem 1.25rem;
+  background: var(--bg-primary);
+  border: 2px solid var(--border);
+  border-radius: 0;
+  font-weight: 500;
+  box-shadow: 3px 3px 0px rgba(0,0,0,1);
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.skill-badge {
+  display: inline-block;
+  padding: 0.4rem 0.85rem;
+  background: var(--bg-primary);
+  border: 2px solid var(--border);
+  border-radius: 0;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  text-transform: uppercase;
+  transition: var(--transition);
+  box-shadow: 2px 2px 0px rgba(0,0,0,1);
+}
+
+.skill-badge:hover {
+  background: var(--primary);
+  color: var(--bg-primary);
+  border-color: var(--primary);
+  transform: translate(2px, 2px);
+  box-shadow: 0px 0px 0px rgba(0,0,0,1);
+}
+
+.detail-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.detail-list li {
+  font-size: 0.9rem;
+  color: var(--text-primary);
+  padding: 0.75rem 1rem;
+  background: var(--bg-primary);
+  border-radius: 0;
+  border: 2px solid var(--border);
+  border-left: 6px solid var(--primary);
+  line-height: 1.5;
+  font-weight: 500;
+  box-shadow: 2px 2px 0px rgba(0,0,0,1);
+}
