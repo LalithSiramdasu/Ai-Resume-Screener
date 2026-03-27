@@ -61,3 +61,5 @@ coverage/
 
 Assessment_1.pdf
 samples/
+backend/chroma_db/
+**/chroma_db/
